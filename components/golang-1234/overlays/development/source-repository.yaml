@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: golang-1234-repository
+spec:
+  url: https://github.com/rhtap-hub/golang-1234
